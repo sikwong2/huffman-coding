@@ -5,23 +5,22 @@ An implementation of Huffman coding in C. The implementation is able to encode/d
 To make the the encode and decode executables type `make` or `make all` in the terminal.
 
 # Usage
-**encode**
+**encode**  
 A Huffman encoder.  
 Compresses a file using the Huffman coding algorithm.  
 **USAGE**  
-`./encode [-h] [-i infile] [-o outfile]`
-`Flags`
+`./encode [-h] [-i infile] [-o outfile]`  
+`Flags`  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to compress (default is stdin).  
     * `-o [outfile]` Output of compressed data (default is stdout).
 
-**decode**
+**decode**  
 A Huffman decoder.  
 Decompress an encoded file using the Huffman coding algorithm.  
 **USAGE**  
-
 `./encode [-h] [-i infile] [-o outfile]`  
-`Flags`
+`Flags`  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to decompress (default is stdin).  
     * `-o [outfile]` Output of decompressed data (default is stdin).  

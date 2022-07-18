@@ -17,7 +17,7 @@ A Huffman encoder. Compresses a file using the Huffman coding algorithm.
 ## Decode  
 A Huffman decoder. Decompress an encoded file using the Huffman coding algorithm.  
 **USAGE**  
-`./encode [-h] [-i infile] [-o outfile]`  
+`./decode [-h] [-i infile] [-o outfile]`  
 `Flags`  
     * `-h` Program usage and help.  
     * `-i [infile]` Input file to decompress (default is stdin).  
